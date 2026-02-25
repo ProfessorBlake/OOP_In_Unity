@@ -43,6 +43,7 @@ namespace Game.Encapsulation
 				muteText.enabled = false;
 			}
 		}
+		
 	}
 }
 

@@ -6662,9 +6662,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1707532609}
-  - component: {fileID: 1707532612}
+  - component: {fileID: 1707532610}
   - component: {fileID: 1707532611}
-  - component: {fileID: 1707532613}
   m_Layer: 0
   m_Name: Mute
   m_TagString: Untagged
@@ -6681,13 +6680,13 @@ Transform:
   m_GameObject: {fileID: 1707532608}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00246, y: -0.00188, z: 0.00204}
-  m_LocalScale: {x: 0.0008464616, y: 0.0008464616, z: 0.0008464616}
+  m_LocalPosition: {x: -0.00246, y: -0.002122, z: 0.00204}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2025203935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1707532611
+--- !u!135 &1707532610
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6706,17 +6705,9 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.4
+  m_Radius: 0.35
   m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1707532612
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707532608}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1707532613
+--- !u!114 &1707532611
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6725,16 +6716,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1707532608}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b617809a560476542976b44fac6588b6, type: 3}
+  m_Script: {fileID: 11500000, guid: 727d4f72d8a69114a930cf4f6361bd3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tv: {fileID: 2025203936}
-  direction: 0
-  sfx_turnKnob: {fileID: 8300000, guid: c17d2b14616252940b3ee13de4ec91d2, type: 3}
-  asource: {fileID: 0}
-  onClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1815862797
 GameObject:
   m_ObjectHideFlags: 0
